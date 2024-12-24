@@ -1,0 +1,28 @@
+
+
+
+.all_history{
+
+    @apply lg:mt-[128px] mt-[80px]
+}
+
+
+.history_heading p{
+
+    @apply lg:text-[45px]  md:text-[35px] text-[20px] text-[#181820] lg:mt-[62px] mt-[25px] font-Lora font-normal 
+
+    text-center
+}
+
+
+
+
+span .H_under{
+
+    @apply absolute lg:bottom-[9px] left-0 z-[-222] w-full lg:h-4 bg-green-700 bottom-[3px] h-[8px]
+}
+
+.history_main{
+
+    @apply justify-center items-center flex flex-col flex-wrap
+}

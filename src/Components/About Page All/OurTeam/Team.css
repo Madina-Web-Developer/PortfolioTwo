@@ -1,0 +1,51 @@
+
+
+
+
+.all_team_members{
+
+    @apply lg:mt-[50px] mt-[15px] flex justify-between items-center flex-wrap
+}
+
+
+.single_person{
+
+    @apply lg:w-[270px] md:w-[120px] w-full
+}
+
+
+.single_person img{
+
+    @apply lg:w-[270px] w-full
+}
+
+.single_person h2{
+
+    @apply lg:text-[32px] font-Lora font-normal text-[25px] text-black
+}
+
+
+.single_person h3{
+
+    @apply lg:text-[16px] text-[10px] font-Monstrant font-medium  text-[#2C2C2C] lg:mt-[24px] lg:mb-[24px]
+
+    mt-[14px] mb-[14px]
+}
+
+
+.single_person p{
+
+    @apply lg:text-[16px] text-[9px] font-Monstrant font-medium text-[#595959] w-full
+}
+
+
+.Team_heading p{
+
+    @apply lg:text-[45px]  md:text-[35px] text-[20px] text-[#181820] lg:w-[674px] md:w-[260px] w-[110px] lg:mt-[62px] mt-[25px] font-Lora font-normal
+}
+
+
+span .T_under{
+
+    @apply absolute lg:bottom-[8px] left-0 z-[-222] w-full lg:h-4 bg-green-700 bottom-[3px] h-[8px]
+}

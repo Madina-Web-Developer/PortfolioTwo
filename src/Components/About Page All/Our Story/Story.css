@@ -9,7 +9,7 @@
 
     background: url('public/Background.png');
 
-    @apply pb-[200px]
+    @apply mt-[-30%]
 
     bg-no-repeat bg-cover
 }
@@ -17,7 +17,7 @@
 
 .story_heading p {
 
-    @apply lg:text-[45px] md:text-[25px] text-[12px] font-Lora font-normal text-[#181820] lg:w-[428px] w-[110px] lg:pt-[200px] pt-[30px]
+    @apply lg:text-[45px] md:text-[25px] text-[12px] font-Lora font-normal text-[#181820] lg:w-[428px] w-[110px] lg:pt-[41%] pt-[30px]
 }
 
 

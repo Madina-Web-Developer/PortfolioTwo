@@ -3,7 +3,7 @@ import Banner from '../Bonner/Banner'
 import Plant from '../PlantTree/Plant'
 import Live from '../Live/Live'
 import Save from '../SavePart/Save'
-import Help from '../Help With Slider/Help'
+import HelpSlider from '../Help With Slider/HelpSlider'
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
          <Plant/>
          <Live/>
          <Save/>
-         <Help/>
+         <HelpSlider/>
        
     </div>
   )
