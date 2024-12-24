@@ -1,0 +1,50 @@
+
+
+
+
+
+.single_plant_card{
+
+    @apply lg:w-[750px] xl:w-[900px] md:w-[500px] w-[280px] bg-white lg:p-[25px] xl:p-[45px] md:p-[10px] p-[4px]
+
+    lg:mt-[20%]  xl:h-[800px] lg:h-[700px] md:h-[500px] h-[400px]
+
+    rounded-md
+}
+
+
+.single_plant_card .all_text h1{
+
+    @apply lg:text-[45px] xl:text-[47px] md:text-[25px] text-[12px] 
+
+    font-Lora text-[#181820]
+}
+
+
+
+.single_plant_card .all_text p{
+
+    @apply lg:text-[16px] md:text-[14px] text-[8px] font-Lora font-normal text-[#6F747B] lg:w-[411px] w-[120px]
+     lg:mt-[32px] md:mt-[25px] mt-[16px]
+}
+
+
+
+.all_text .tree_under{
+
+    @apply absolute lg:bottom-[10px] left-0  w-full lg:h-4 bg-yellow-300 bottom-[2px] h-[4px] inline-block z-[-10]
+}
+
+
+.tree_button{
+
+    @apply lg:text-[14px] md:text-[12px] text-[12px] text-white lg:py-[12px] xl:text-[16px] lg:px-[40px]  py-[8px] px-[20] bg-[#428b6c] rounded-[4px] font-semibold lg:mt-[50px] mt-[20px] hover:bg-green-500 transition-all duration-[.4s]
+}
+
+
+.card_img img{
+
+    @apply xl:w-[800px] lg:w-[641px] w-[70px] mt-[5px] 
+     lg:mt-[33px] 
+}
+

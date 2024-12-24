@@ -1,0 +1,39 @@
+
+
+body{
+
+    position: relative;
+}
+
+.bg img{
+
+    @apply absolute lg:top-0 top-[0%] lg:right-0 right-[-25%]  z-[-999] lg:w-[840px] xl:w-[1000px] w-[270px] 
+}
+
+
+.plant_bg img{
+
+    @apply lg:w-[370px] lg:h-[667px] h-[320px] w-[150px] z-[-999] lg:mt-[30%] mt-[8%] absolute
+}
+
+.live_bg img{
+
+    @apply lg:w-[350px] lg:h-[667px] h-[320px] w-[150px] z-[-999]  absolute right-[0%]  xl:mt-[16%] lg:mt-[8%] mt-[3%]
+}
+
+
+.save_bg img{
+
+    @apply lg:w-[700px] lg:h-[700px] h-[250px] w-[250px] z-[-999]  absolute  xl:mt-[-30%] lg:mt-[-40%] mt-[-10%] xl:left-[27%] lg:left-[15%]
+}
+
+.left_stand{
+
+    @apply absolute lg:h-[3200px] h-[2000px] w-[3px] bg-[#E6E9EF] lg:top-[435px] xl:top-[600px] top-[200px]
+}
+
+.right_stand{
+
+    @apply absolute lg:h-[3165px]  h-[2200px] w-[2px] bg-[#257251] lg:top-[445px] xl:top-[780px] top-[200px] right-[5%]
+}
+

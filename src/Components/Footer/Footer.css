@@ -1,0 +1,68 @@
+
+
+
+
+
+
+
+.single_ul ul li a h1{
+
+
+    @apply lg:text-[18px]  md:text-[14px] text-[10px] 
+
+    font-Lora text-[#161C1E] font-semibold
+}
+
+
+.single_ul ul li a h2{
+
+    @apply lg:text-[14px]  md:text-[10px] text-[7px] 
+
+    font-inter text-[#161C1E] font-normal
+}
+
+
+
+.Footer_all_logo{
+
+    @apply flex justify-center items-center gap-[2px]
+}
+
+
+.Footer_all_logo img{
+
+    @apply lg:w-[20px] w-[10px]
+}
+
+
+
+
+.f_last_logo a .App{
+
+    @apply lg:w-[60px] w-[34px]
+}
+
+
+
+.f_last_logo a .Google{
+
+    @apply lg:w-[70px] w-[40px]
+}
+
+
+.f_last_logo {
+
+    @apply flex gap-[5px] items-center
+}
+
+.f_underline span .f_u{
+
+    @apply w-full lg:h-[2px] h-[1px] mb-[30px] bg-[#161C1E]
+}
+
+.all_last_text  h3{
+
+    @apply lg:text-[13px]  md:text-[10px] text-[8px] 
+
+    font-Monstrant text-[#161C1E] font-normal mb-[20px]
+}

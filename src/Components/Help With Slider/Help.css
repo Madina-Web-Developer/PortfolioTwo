@@ -1,0 +1,82 @@
+
+
+
+
+.help_head h1{
+
+    @apply lg:text-[33px] xl:text-[35px] md:text-[20px] text-[18px] 
+
+    font-Monstrant text-[#19191A] lg:mt-[3%] mt-[4px] font-semibold
+}
+
+
+.help_head p {
+
+    @apply lg:text-[17px] md:text-[15px] text-[12px] font-Monstrant font-normal text-[#BBBBBB] lg:w-[485px] w-[120px] lg:mt-[16px] mt-[8px]
+}
+
+
+.single_slider h1{
+
+    @apply lg:text-[30px] text-[20px] font-Monstrant font-medium text-white border-b-[3px] w-[60px] border-b-[#E6E9EF] border-opacity-50 pb-[2px] mt-[80px]
+}
+
+
+.single_slider p{
+
+    @apply mt-[16px]  lg:text-[16px] text-[10px] font-Monstrant font-medium text-white w-full
+}
+
+.single_slider .arrow{
+
+    @apply text-white text-[35px] mt-[20px]
+}
+
+
+
+
+.Slider{
+
+    @apply lg:mt-[40px] xl:gap-[100px] mt-[25px] flex items-center justify-center  flex-wrap lg:gap-[32px] gap-[15px] w-full
+}
+
+
+
+.Slider1 {
+
+@apply bg-[url('public/Slider1.png')] bg-no-repeat lg:w-[396px]
+  
+
+  lg:p-[50px]  p-[32px] h-[396px] inline-block w-full rounded-lg
+    
+}
+
+.Slider2 {
+
+    @apply bg-[url('public/Slider2.png')] bg-no-repeat lg:w-[396px] w-full
+      
+    
+    lg:p-[50px]  p-[32px] h-[396px] rounded-lg
+        
+    }
+
+.Slider3 {
+
+@apply bg-[url('public/Slider3.png')] bg-no-repeat lg:w-[396px]
+          
+        
+lg:p-[50px]  p-[32px] h-[396px]  w-full rounded-lg
+            
+}
+
+.Slider4{
+
+    @apply bg-[url('public/Slider4.png')] bg-no-repeat lg:w-[396px]
+              
+            
+    lg:p-[50px]  p-[32px] h-[400px]  w-full mt-[20px] rounded-lg
+                
+    }
+        
+    
+    

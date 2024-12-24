@@ -1,0 +1,62 @@
+
+
+
+
+
+
+.all_banner{
+
+    @apply lg:mt-[60px] mt-[40px]
+}
+
+
+
+.b_head p {
+
+    @apply lg:text-[45px] md:text-[25px] text-[12px] font-Lora font-normal text-[#181820] lg:w-[428px] w-[110px]
+}
+
+.para p{
+
+    @apply lg:text-[17px]  md:text-[14px] text-[6px] text-[#6F747B] lg:w-[448px] md:w-[260px] w-[110px] lg:mt-[62px] mt-[25px]
+}
+
+
+span .b_under{
+
+    @apply absolute lg:bottom-[8px] left-0 z-[-222] w-full lg:h-4 bg-green-700 bottom-[3px] h-[4px]
+}
+
+
+.input{
+
+    @apply lg:w-[444px] w-[110px] h-[25px] lg:h-[50px] border-2 border-[#E6E9EF]
+
+    lg:mt-[65px] mt-[38px] rounded-md
+}
+
+
+.input input{
+
+    @apply lg:w-[335px] w-[55px] lg:h-[47px] h-[15px] outline-none lg:ml-[35px] ml-[8px] font-medium lg:text-[18px] text-[8px] text-gray-700 placeholder:font-normal bg-transparent
+}
+
+.input button{
+
+    @apply lg:text-[15px] md:text-[12px] text-[7px] text-white 
+    
+    lg:py-[10px] py-[3px] border-[#257251] rounded-[4px] border-[2px] lg:w-[102px] w-[35px] font-normal hover:bg-[#428b6c] transition-all duration-[.4s]
+
+    bg-[#257251]
+}
+
+.banner_img img{
+
+    @apply lg:w-[570px] md:w-[350px] w-[160px]
+
+}
+
+.all_banner{
+
+    @apply flex  lg:gap-[110px] xl:gap-[300px] gap-[50px]
+}

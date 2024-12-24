@@ -1,0 +1,41 @@
+
+
+
+
+
+
+
+.mina_Our_story{
+
+    background: url('public/Background.png');
+
+    @apply pb-[200px]
+
+    bg-no-repeat bg-cover
+}
+
+
+.story_heading p {
+
+    @apply lg:text-[45px] md:text-[25px] text-[12px] font-Lora font-normal text-[#181820] lg:w-[428px] w-[110px] lg:pt-[200px] pt-[30px]
+}
+
+
+.story_para p{
+
+    @apply lg:text-[20px]  md:text-[14px] text-[12px] text-[#1E1E1E] lg:w-[674px] md:w-[260px] w-[110px] lg:mt-[62px] mt-[25px] font-Lora font-normal
+}
+
+
+span .S_under{
+
+    @apply absolute lg:bottom-[8px] left-0 z-[-222] w-full lg:h-4 bg-green-700 bottom-[3px] h-[4px]
+}
+
+
+.story_button .button{
+
+    @apply lg:text-[15px] md:text-[12px] text-[12px] text-white lg:py-[10px] py-[6px] border-[#257251] bg-[#257251]  rounded-[4px] border-[2px] lg:w-[143px] w-[15px] font-semibold hover:bg-[#3bc388] transition-all duration-[.4s] lg:mt-[41px] mt-[22px]
+}
+
+
