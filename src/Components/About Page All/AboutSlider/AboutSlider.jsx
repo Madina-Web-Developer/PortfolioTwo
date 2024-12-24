@@ -47,63 +47,83 @@ const AboutSlider = () =>
             
                 
 
+   <div className="container">
              <div className="slider-container">
              <Slider {...settings}>
 
+            
 
 
-              <div>
+   
+                        <div>
 
-                 <div className="single_slider">
-                
-                            <div className="Slider1">
-                              <h1></h1>
-                              <p></p>
+                            <div className="Ab_single_slider">
+                            
+                                        <div className="Slider1">
+                                        <h1>3,456</h1>
+                                        <p>Tree’s planted</p>
 
-                
-                            </div>
-                          </div>
-                
-              </div>
-
-
-               <div>
-
-                 <div className="single_slider">
-                
-                            <div className="Slider1">
-                              <h1></h1>
-                              <p></p>
-
-                
-                            </div>
-                          </div>
-                
-              </div>
+                            
+                                        </div>
+                                    </div>
+                            
+                        </div>
 
 
+                        <div>
+
+                            <div className="Ab_single_slider">
+                            
+                                        <div className="Slider2">
+                                        <h1>£10.5M</h1>
+                                        <p>Raised in 2022</p>
+
+                            
+                                        </div>
+                                    </div>
+                            
+                        </div>
+
+
+                        <div>
+
+                            <div className="Ab_single_slider">
+                            
+                                        <div className="Slider3">
+                                        <h1>30,000</h1>
+                                        <p>Another stat</p>
+
+                            
+                                        </div>
+                                    </div>
+                            
+                        </div>
 
 
 
-               <div>
 
-                 <div className="single_slider">
-                
-                            <div className="Slider1">
-                              <h1></h1>
-                              <p></p>
+                           <div>
 
-                
-                            </div>
-                          </div>
-                
-              </div>
+                            <div className="Ab_single_slider">
+                            
+                                        <div className="Slider4">
+                                        <h1>3,456</h1>
+                                        <p>Another stat</p>
 
+                            
+                                        </div>
+                                    </div>
+                            
+                        </div>
+
+
+        
              
            
              </Slider>
              </div>
 
+    </div>
              
         
 

@@ -36,6 +36,8 @@ span .S_under{
 .story_button .button{
 
     @apply lg:text-[15px] md:text-[12px] text-[12px] text-white lg:py-[10px] py-[6px] border-[#257251] bg-[#257251]  rounded-[4px] border-[2px] lg:w-[143px] w-[15px] font-semibold hover:bg-[#3bc388] transition-all duration-[.4s] lg:mt-[41px] mt-[22px]
+
+    mb-[7%]
 }
 
 

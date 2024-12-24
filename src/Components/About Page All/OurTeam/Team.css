@@ -4,7 +4,7 @@
 
 .all_team_members{
 
-    @apply lg:mt-[50px] mt-[15px] flex justify-between items-center flex-wrap
+    @apply lg:mt-[60px] mt-[15px] flex justify-between items-center flex-wrap
 }
 
 
@@ -41,7 +41,7 @@
 
 .Team_heading p{
 
-    @apply lg:text-[45px]  md:text-[35px] text-[20px] text-[#181820] lg:w-[674px] md:w-[260px] w-[110px] lg:mt-[62px] mt-[25px] font-Lora font-normal
+    @apply lg:text-[45px]  md:text-[35px] text-[20px] text-[#181820] lg:w-[674px] md:w-[260px] w-[110px] font-Lora font-normal
 }
 
 
